@@ -1,0 +1,36 @@
+@font-face {
+  font-family: LadyRadical;
+  src: url(../partials/LadyRadical2Regular-0yAz.ttf);
+}
+
+body {
+  background-color: #0a0a23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 3rem;
+  font-family: LadyRadical;
+  color: #feac32;
+  flex-direction: column;
+}
+
+button {
+  margin-left: 35%;
+
+  margin-bottom: 2%;
+  margin-top: 15%;
+  padding: 10px 20px;
+  font-size: inherit;
+  cursor: pointer;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  font-family: LadyRadical;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
